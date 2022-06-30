@@ -7,10 +7,6 @@ function onScroll() {
     activateMenuAtCurrentSection()
 }
 
-function activateMenuAtCurrentSection() {
-
-}
-
 function showNavOnScroll() {
     if (scrollY > 0) {
         navigation.classList.add('scroll')
