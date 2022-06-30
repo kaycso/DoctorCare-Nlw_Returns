@@ -4,7 +4,7 @@ onScroll()
 function onScroll() {
     showNavOnScroll()
     showBackToTopButtonOnScroll()
-    activateMenuAtCurrentSection()
+
 }
 
 function showNavOnScroll() {
