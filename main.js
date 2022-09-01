@@ -8,10 +8,11 @@ function onScroll() {
 }
 
 function showNavOnScroll() {
+    const nav = document.getElementById("navigation").classList;
     if (scrollY > 0) {
-        navigation.classList.add('scroll')
+        nav.add('scroll')
     }else {
-        navigation.classList.remove('scroll')
+        nav.remove("scroll")
     }
 }
 
